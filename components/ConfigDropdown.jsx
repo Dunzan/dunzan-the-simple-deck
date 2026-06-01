@@ -214,7 +214,7 @@ export default function ConfigDropdown({
           </form>
 
           <div className="text-xs leading-relaxed border-t border-black pt-4">
-            <p className="font-medium mb-2 text-sm"><a target="_blank" href="https://letitbesimple.com/waystoplay">Ways To Play (opens new tab)</a></p>
+            <p className="font-medium mb-2 text-sm"><a target="_blank" href="https://letitbesimple.com/waystoplay"><u>Ways To Play</u> (opens new tab)</a></p>
           </div>
 
           <div className="mt-auto border-t border-black pt-4">
