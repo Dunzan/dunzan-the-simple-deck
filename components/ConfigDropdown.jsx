@@ -218,15 +218,15 @@ export default function ConfigDropdown({
           </div>
 
           <div className="mt-auto border-t border-black pt-4">
-            Share your insights in the <a
+            <a
               href={DISCORD_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-black underline underline-offset-2 border-none shadow-none cursor-pointer"
             >
               <DiscordIcon />
-              Let It Be Simple community
-            </a> on Discord
+              Share your insights in the Let It Be Simple community on Discord
+            </a> 
           </div>
 
           {onShuffleReset ? (
