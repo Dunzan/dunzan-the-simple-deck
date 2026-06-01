@@ -225,7 +225,7 @@ export default function ConfigDropdown({
               className="inline-flex items-center gap-2 text-sm font-medium text-black underline underline-offset-2 border-none shadow-none cursor-pointer"
             >
               <DiscordIcon />
-              Share your insights in the Let It Be Simple community on Discord
+              Share insights in Let It Be Simple on Discord
             </a> 
           </div>
 
