@@ -177,7 +177,7 @@ export default function ConfigDropdown({
             <div className="flex flex-col gap-2 border border-black bg-white p-2.5">
               <div className="flex items-center justify-between gap-2">
                 <span id="countdown-toggle-label" className="text-sm font-medium">
-                  Countdown
+                  Auto refresh
                 </span>
                 <ToggleSwitch
                   checked={draftCountdownEnabled}
