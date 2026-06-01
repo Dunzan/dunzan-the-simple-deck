@@ -24,7 +24,7 @@ function GearIcon({ className }) {
     <svg
       className={className}
       width="22"
-      height="16"
+      height="22"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -218,15 +218,15 @@ export default function ConfigDropdown({
           </div>
 
           <div className="mt-auto border-t border-black pt-4">
-            <a
+            Share your insights in the <a
               href={DISCORD_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-black underline underline-offset-2 border-none shadow-none cursor-pointer"
             >
               <DiscordIcon />
-              Join Let It Be Simple on Discord
-            </a>
+              Let It Be Simple community
+            </a> on Discord
           </div>
 
           {onShuffleReset ? (
