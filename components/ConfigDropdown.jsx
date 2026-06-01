@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import instructionLinks from "@/lib/instructions.json";
 
 const DISCORD_URL = "https://discord.gg/3YRUp4cP5K";
 
