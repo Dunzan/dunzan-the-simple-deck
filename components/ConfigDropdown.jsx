@@ -190,7 +190,7 @@ export default function ConfigDropdown({
               {draftCountdownEnabled ? (
                 <label className="flex flex-col gap-1.5 text-sm">
                   <span className="font-medium tabular-nums text-xs">
-                    Seconds (min 10)
+                    Seconds (minimum 10)
                   </span>
                   <input
                     type="number"
