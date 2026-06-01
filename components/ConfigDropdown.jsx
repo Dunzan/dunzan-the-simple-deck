@@ -24,7 +24,7 @@ function GearIcon({ className }) {
     <svg
       className={className}
       width="22"
-      height="22"
+      height="16"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
