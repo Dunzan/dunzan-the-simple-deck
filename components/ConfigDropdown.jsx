@@ -215,22 +215,7 @@ export default function ConfigDropdown({
           </form>
 
           <div className="text-xs leading-relaxed border-t border-black pt-4">
-            <p className="font-medium mb-2 text-sm">Ways To Play (opens new tab)</p>
-            <ul className="flex flex-col gap-2 text-[13px] leading-snug list-none p-0 m-0">
-              {instructionLinks.map((item, index) => (
-                <li key={`${item.link}-${index}`}>
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-black underline underline-offset-2 font-medium"
-                  >
-                    {item.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <p className="font-medium text-sm"><br/>Scroll the new tab for even more games</p>
+            <p className="font-medium mb-2 text-sm"><a target="_blank" href="https://letitbesimple.com/waystoplay">Ways To Play (opens new tab)</a></p>
           </div>
 
           <div className="mt-auto border-t border-black pt-4">
