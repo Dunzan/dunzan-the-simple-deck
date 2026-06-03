@@ -158,7 +158,7 @@ export default function ConfigDropdown({
         <div
           role="dialog"
           aria-label="Settings"
-          className="absolute bottom-full right-0 mb-2 w-[min(92vw,14rem)] min-h-[min(70vh,28rem)] max-h-[78vh] overflow-y-auto rounded-none border border-black bg-white text-black shadow-none p-4 flex flex-col outline-none"
+          className="absolute bottom-full right-0 mb-2 w-[min(92vw,14rem)] max-h-[78vh] overflow-y-auto rounded-none border border-black bg-white text-black shadow-none p-4 flex flex-col gap-3 outline-none"
         >
           <form className="flex flex-col gap-4" onSubmit={handleApply}>
             <label className="flex flex-col gap-2 text-sm">
@@ -213,20 +213,34 @@ export default function ConfigDropdown({
             </button>
           </form>
 
-          <div className="text-xs leading-relaxed border-t border-black pt-4">
-            <p className="font-medium mb-2 text-sm"><a target="_blank" href="https://letitbesimple.com/waystoplay"><u>Ways To Play</u> (opens new tab)</a></p>
+          <div className="border-t border-black pt-3 text-sm font-medium leading-relaxed">
+            <p>
+              <a
+                href="https://letitbesimple.com/waystoplay"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2"
+              >
+                Ways To Play
+              </a>
+              <span className="font-normal"> (opens new tab)</span>
+            </p>
           </div>
 
-          <div className="mt-auto border-t border-black pt-4">
-            <a
-              href={DISCORD_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-medium text-black underline underline-offset-2 border-none shadow-none cursor-pointer"
-            >
-              <DiscordIcon />
-              Share insights in Let It Be Simple on Discord
-            </a> 
+          <div className="flex items-start gap-2 border-t border-black pt-3 text-sm font-medium leading-relaxed">
+            <DiscordIcon className="mt-0.5 shrink-0" />
+            <p>
+              Share insights in{" "}
+              <a
+                href={DISCORD_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2"
+              >
+                Let It Be Simple
+              </a>{" "}
+              on Discord
+            </p>
           </div>
 
           {onShuffleReset ? (
